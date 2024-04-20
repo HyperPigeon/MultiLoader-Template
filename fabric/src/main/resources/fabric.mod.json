@@ -16,7 +16,10 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
+          "net.hyper_pigeon.examplemod.ExampleModFabric"
+        ],
+        "client": [
+            "net.hyper_pigeon.examplemod.ExampleModFabricClient"
         ]
     },
     "mixins": [
